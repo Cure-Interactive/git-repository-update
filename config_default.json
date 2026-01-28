@@ -1,0 +1,20 @@
+{
+  "scan": {
+    "scan_roots": [
+      ""
+    ],
+    "ignore_prefixes": [
+      "$",
+      "System Volume Information",
+      "lost+found",
+      ".Trash",
+      ".Trash-1000",
+      ".cache"
+    ],
+    "default_ssh_key": ""
+  },
+  "filters": {
+    "allowed_roots": [],
+    "disallowed_roots": []
+  }
+}
