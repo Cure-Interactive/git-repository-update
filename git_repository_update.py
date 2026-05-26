@@ -67,10 +67,10 @@ from dataclasses import dataclass
 from typing import Any, Dict, List, Optional, Tuple
 
 # =============================================================================
-# packages_custom (shared modules live here)
+# packages_custom (vendored for this standalone repository)
 # =============================================================================
 
-_PACKAGES_CUSTOM_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "packages_custom"))
+_PACKAGES_CUSTOM_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "packages_custom"))
 if os.path.isdir(_PACKAGES_CUSTOM_DIR) and _PACKAGES_CUSTOM_DIR not in sys.path:
   sys.path.insert(0, _PACKAGES_CUSTOM_DIR)
 
