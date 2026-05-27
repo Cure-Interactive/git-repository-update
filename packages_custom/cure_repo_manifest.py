@@ -5,6 +5,8 @@ import json
 import os
 import typing as t
 
+__version__ = "0.1.0"
+
 
 class RepoState(t.TypedDict, total=False):
   """
@@ -47,7 +49,7 @@ def ts_short(iso_ts: str) -> str:
   Short, UI-friendly timestamp. Tooltip can show the raw ISO.
   """
   if not iso_ts:
-    return "—"
+    return "-"
   try:
     dt = _dt.datetime.fromisoformat(iso_ts)
     return dt.strftime("%Y-%m-%d %H:%M")

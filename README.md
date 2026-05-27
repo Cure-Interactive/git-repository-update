@@ -10,7 +10,7 @@ CustomTkinter app for scanning local Git repositories and updating them in bulk.
 - Runs `git pull --ff-only` across selected repositories
 - Supports dry-run workflows
 
-This standalone repository vendors the small `packages_custom/` helper module used by the app.
+This standalone repository vendors the small `packages_custom/` helper module used by the app. The vendored copy is `packages_custom` version `0.1.0` from source commit `3e87d89`.
 
 ## Requirements
 
